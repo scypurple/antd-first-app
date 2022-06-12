@@ -1,10 +1,10 @@
 import React from 'react';
-import { Button } from 'antd';
+import Sidebar from './components/Sidebar';
 
 const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
+  <>
+    <Sidebar />
+  </>
 );
 
 export default App;
